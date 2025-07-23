@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
 *{
   margin: 0;
   padding: 0;
@@ -17,18 +18,31 @@
 .dark-03{
   color: #000000;
 }
+.dark-04{
+  color: #E95A08;
+}
 
 .inter {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
 }
+
+.noto-serif {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
 .header{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  text-align: center;
+  text-align: justify;
   margin: 30px;
+  margin-bottom: 120px;
+  font-family: inter;
 }
 
 nav a{
@@ -52,7 +66,30 @@ nav a{
   font-size: 16px;
   font-weight: 400;
 }
+.banner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: start;
+  width: 100%;
+  gap: 50px;
+  margin: 30px;
+}
 
+.banner-container{
+  font-size: 65px;
+  font-weight: 700;
+}
+.banner-discription{
+  font-family: inter;
+  color: #00000080;
+  font-size: 15px;
+  margin-top: 13px;
+}
+div>img{
+  width: 100%;
+  display: block;
+}
 
 
 @media screen  and (max-width: 576px)   {
@@ -77,5 +114,22 @@ nav a{
     justify-content: center;
     text-align: center;
     font-size: 16px;
+}
+.banner{
+  flex-direction: column-reverse;
+  margin: 0 auto;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.banner-container{
+  font-size: 24px;
+}
+.banner-discription{
+  font-size: 14px;
+  margin-bottom: 24px;
+}
+div>img{
+  width: 100%;
+  display: block;
 }
 }
