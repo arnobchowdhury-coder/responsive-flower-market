@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  max-width: 1280px;
+  margin: auto;
+}
+.dark-01{
+  color: #252432;
+}
+.dark-02{
+  color: #8987A1;
+}
+.dark-03{
+  color: #000000;
+}
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.header{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  margin: 30px;
+}
+
+nav a{
+  list-style: none;
+  text-decoration: none;
+  margin-left: 48px;
+}
+.img-1{
+  width: 135px;
+  height: 82px;
+}
+.card-container{
+  font-size: 16px;
+  font-weight: 700;
+}
+.card-item{
+  font-size: 16px;
+  font-weight: 400;
+}
+.card-item1{
+  font-size: 16px;
+  font-weight: 400;
+}
+
+
+
+@media screen  and (max-width: 576px)   {
+  .header{
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 50px;
+    margin-top: 13px;
+    overflow: hidden;
+  }
+  .card-container{
+    display: none;
+  }
+  .card-item{
+  display: none;
+}
+.card-item1{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 16px;
+}
+}
