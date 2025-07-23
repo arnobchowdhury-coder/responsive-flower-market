@@ -21,6 +21,9 @@
 .dark-04{
   color: #E95A08;
 }
+.dark-05{
+  color: #111111;
+}
 
 .inter {
   font-family: "Inter", sans-serif;
@@ -105,6 +108,43 @@ div>img{
   font-weight: 400;
   margin-bottom: 30px;
 }
+.btn-primary{
+  background-color: rgb(233, 90, 8);
+  color: #FFFFFF;
+  font-size: 15px;
+  font-weight: 600;
+  width: 171px;
+  height: 50px;
+  padding: 10px;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  margin: 30px 0;
+  }
+  .plant-grow{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    font-family: inter;
+  }
+.plant-title{
+  font-family: inter;
+  margin: 30px 0;
+}
+.item-1{
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.img-2>img{
+  width: 250px;
+  height: 300px;
+  display: block;
+  margin-bottom: 20px;
+}
 
 
 @media screen  and (max-width: 576px)   {
@@ -141,7 +181,7 @@ div>img{
 }
 .banner-discription{
   font-size: 14px;
-  margin-bottom: 24px;
+  margin-bottom: 40px;
 }
 div>img{
   width: 100%;
@@ -157,6 +197,17 @@ div>img{
 }
 .plant-container{
   font-size: 18px;
+}
+.plant-grow{
+  grid-template-columns: repeat(2,1fr);
+  overflow-y: hidden;
+  margin: 0 auto;
+  margin-top: 0;
+}
+.img-2>img{
+  width: 200px;
+  height: 300px;
+  display: block;
 }
 
 }
