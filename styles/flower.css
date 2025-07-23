@@ -145,6 +145,31 @@ div>img{
   display: block;
   margin-bottom: 20px;
 }
+ .join-head{
+  background-image: url("../assets/news-letter-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 50px;
+ }
+.join{
+  color: #FFFFFF;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  padding: 100px;
+}
+.join-card{
+  display: flex;
+}
+input[type="email"]{
+  width: 800px;
+  height: 50px;
+  display: block;
+  margin-top: 30px;
+  padding: 10px;
+}
 
 
 @media screen  and (max-width: 576px)   {
@@ -208,6 +233,32 @@ div>img{
   width: 200px;
   height: 300px;
   display: block;
+}
+.join-head{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.join-card{
+  flex-direction: row;
+  padding: 0;
+}
+.join{
+  display: block;
+  font-size: 15px;
+  padding: 20px 70px;
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+}
+input[type="email"]{
+  width: 218px;
+  height: 50px;
+  display: block;
+  margin-top: 30px;
+  text-align: start;
+  padding: 10px;
 }
 
 }
