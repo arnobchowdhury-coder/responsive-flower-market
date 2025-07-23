@@ -74,6 +74,7 @@ nav a{
   width: 100%;
   gap: 50px;
   margin: 30px;
+  margin-bottom: 70px;
 }
 
 .banner-container{
@@ -89,6 +90,20 @@ nav a{
 div>img{
   width: 100%;
   display: block;
+}
+.plant{
+  text-align: center;
+}
+.plant-card{
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.plant-container{
+  color: #00000080;
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 30px;
 }
 
 
@@ -132,4 +147,16 @@ div>img{
   width: 100%;
   display: block;
 }
+.plant{
+  text-align: center;
+  align-items: center;
+  overflow: hidden;
+}
+.plant-card{
+  font-size: 25px;
+}
+.plant-container{
+  font-size: 18px;
+}
+
 }
