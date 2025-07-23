@@ -298,6 +298,7 @@ div>img{
 .plant-grow{
   grid-template-columns: repeat(2,1fr);
   overflow-y: hidden;
+  gap: 10px;
   margin: 0 auto;
   margin-top: 0;
 }
