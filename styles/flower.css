@@ -423,6 +423,8 @@ input[type="email"]{
 .deal-grid{
   grid-template-columns: repeat(1,1fr);
   overflow: hidden;
+  gap: 26px;
+  grid-template-rows: auto;
 }
 .bloom-plant{
   flex-direction: column;
@@ -433,6 +435,7 @@ input[type="email"]{
   border-radius: 10px;
   padding: 30px;
   margin: 20px;
+  height: 206px;
 }
 .ana-plant{
   padding: 60px;
@@ -441,10 +444,13 @@ input[type="email"]{
   gap: 20px;
   border-radius: 10px;
   margin: 20px;
+  height: 206px;
 }
 
 .zabo-plant{
     margin: 20px;
+    grid-row: auto;
+    height: 206px;
 
 }
 .zabo-plant h2{
