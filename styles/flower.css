@@ -309,8 +309,8 @@ input[type="email"]{
   position: absolute;
     width: 286px;
     height: 286px;
-    left: 572px;
-    top: 1922px;
+    left: 552px;
+    top: 1912px;
 }
 
 
@@ -411,9 +411,10 @@ input[type="email"]{
   margin: 20px;
   overflow: hidden;
 }
-.section-container{
-  font-size: 30px;
-  text-align: start;
+.section-container h2{
+  font-size: 24px;
+  text-align: left;
+  display: inline;
 }
 .section-description{
   margin-left: 30px;
