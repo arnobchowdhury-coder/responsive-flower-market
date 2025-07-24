@@ -170,7 +170,70 @@ div>img{
  width: 540px;
  height: 597px;
 }
+ .deal-grid{
+    display: grid;
+    gap: 26px;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows:197px 197px;
+    margin-bottom: 40px;
+ }
+ .bloom-plant{
+     background-image: linear-gradient(rgba(38, 37, 37, 0.6),rgba(40, 39, 39, 0.4)),url(../assets/deal-bloom.png);
+    
+    background-size: cover;
+    border-radius: 14px;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-repeat: no-repeat;
 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+}
+  .zabo-plant{
+      background-image: linear-gradient(rgba(38, 37, 37, 0.6),rgba(40, 39, 39, 0.4)),url(../assets/deal-zabo.png);
+    grid-row: span 2;
+    border-radius: 14px;
+     background-repeat: no-repeat;
+     background-size: cover;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     text-align: center;
+     align-items: center;
+     color: white;
+}
+  .ana-plant{
+   background-image: linear-gradient(rgba(38, 37, 37, 0.6),rgba(40, 39, 39, 0.4)),url(../assets/deal-ana.png);
+    border-radius: 14px;
+     background-repeat: no-repeat;
+     background-size: cover;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     color: white;
+}
+.deal-grid div h2{
+    font-size: 20px;
+    font-weight: bold;
+}
+.deal-grid div span{
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.deal-grid .zabo-plant h2{
+    font-size: 30px;
+}
+.deal-grid .zabo-plant span{
+    font-size: 26px;
+    text-underline-offset: 6px;
+}
 
  .join-head{
   background-image: url("../assets/news-letter-bg.png");
@@ -242,7 +305,7 @@ input[type="email"]{
 }
 
 
-@media screen  and (max-width: 576px)   {
+@media screen  and (max-width: 576px){ 
   .header{
     flex-direction: row;
     flex-wrap: nowrap;
@@ -356,6 +419,36 @@ input[type="email"]{
   grid-template-columns: repeat(1,1fr);
   margin-left: 10px;
   overflow-x: hidden;
+}
+.deal-grid{
+  grid-template-columns: repeat(1,1fr);
+  overflow: hidden;
+}
+.bloom-plant{
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+  padding: 30px;
+  margin: 20px;
+}
+.ana-plant{
+  padding: 60px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.zabo-plant{
+    margin: 20px;
+
+}
+.zabo-plant h2{
+  font-size: 20px;
 }
 
 }
