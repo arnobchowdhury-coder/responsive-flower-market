@@ -129,6 +129,7 @@ div>img{
     text-align: center;
     margin: auto;
     font-family: inter;
+    margin-bottom: 120px;
   }
 .plant-title{
   font-family: inter;
@@ -304,6 +305,13 @@ input[type="email"]{
   display: flex;
   gap: 10px;
 }
+ .img{
+  position: absolute;
+    width: 286px;
+    height: 286px;
+    left: 572px;
+    top: 1922px;
+}
 
 
 @media screen  and (max-width: 576px){ 
@@ -465,6 +473,10 @@ input[type="email"]{
 }
 .ana-plant{
   order: 2;
+}
+.img{
+  display: none;
+  overflow: hidden;
 }
 
 }
