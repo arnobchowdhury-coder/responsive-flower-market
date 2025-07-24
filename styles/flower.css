@@ -184,7 +184,7 @@ div>img{
     border-radius: 14px;
     background-color: rgba(0, 0, 0, 0.4);
     background-repeat: no-repeat;
-
+    gap: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -211,6 +211,7 @@ div>img{
      background-repeat: no-repeat;
      background-size: cover;
      display: flex;
+     gap: 10px;
      flex-direction: column;
      justify-content: center;
      align-items: center;
@@ -331,8 +332,7 @@ input[type="email"]{
 .banner{
   flex-direction: column-reverse;
   margin: 0 auto;
-  overflow-x: hidden;
-  overflow-y: hidden;
+  overflow: hidden;
 }
 .banner-container{
   font-size: 24px;
@@ -453,8 +453,18 @@ input[type="email"]{
     height: 206px;
 
 }
+
 .zabo-plant h2{
   font-size: 20px;
+}
+.bloom-plant{
+  order:1;
+}
+.zabo-plant{
+  order: 3;
+}
+.ana-plant{
+  order: 2;
 }
 
 }
